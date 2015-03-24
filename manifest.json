@@ -1,0 +1,26 @@
+{
+    "name": "Is Jetpack?",
+    "description": "Improving HEs lives since 2015",
+    "version": "0.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_icon": {
+            "128": "icons/128.png"
+        },
+        "default_title": "Jetpack Info",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "icons/128.png"
+    },
+    "permissions": [
+        "tabs",
+        "https://public-api.wordpress.com/"
+    ]
+}
